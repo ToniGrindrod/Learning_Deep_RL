@@ -1,0 +1,16 @@
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 1, "at": 1740044762.106661}
+{"obj": {"type": "AssignString", "path": ["monitoring", "c6b54aef", "hostname"], "value": "Antonias-MacBook-Pro-2.local"}, "version": 2, "at": 1740044762.1069062}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Antonias-MacBook-Pro-2.local"}, "version": 3, "at": 1740044762.107002}
+{"obj": {"type": "AssignString", "path": ["monitoring", "c6b54aef", "pid"], "value": "88690"}, "version": 4, "at": 1740044762.10712}
+{"obj": {"type": "AssignString", "path": ["monitoring", "c6b54aef", "tid"], "value": "140704625138496"}, "version": 5, "at": 1740044762.107218}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 6, "at": 1740044762.107297}
+{"obj": {"type": "UploadFile", "path": ["source_code", "diff"], "ext": "patch", "file_path": null, "tmp_file_name": "source_code_diff-1740044762.524305-2025-02-20_11.46.02.524305.patch", "clean_after_upload": false}, "version": 7, "at": 1740044762.524887}
+{"obj": {"type": "UploadFile", "path": ["source_code", "upstream_diff_44ac055d53370213292957a8800a4894122ca2c5"], "ext": "patch", "file_path": null, "tmp_file_name": "source_code_upstream_diff_44ac055d53370213292957a8800a4894122ca2c5-1740044762.52514-2025-02-20_11.46.02.525140.patch", "clean_after_upload": false}, "version": 8, "at": 1740044762.525436}
+{"obj": {"type": "AssignInt", "path": ["parameters", "BATCH_SIZE"], "value": 32}, "version": 9, "at": 1740044762.534101}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "GAMMA"], "value": 0.99}, "version": 10, "at": 1740044762.5350149}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "EPS_START"], "value": 1.0}, "version": 11, "at": 1740044762.5351858}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "EPS_END"], "value": 0.05}, "version": 12, "at": 1740044762.5357592}
+{"obj": {"type": "AssignInt", "path": ["parameters", "EPS_DECAY"], "value": 5000}, "version": 13, "at": 1740044762.5358562}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "TAU"], "value": 0.005}, "version": 14, "at": 1740044762.536041}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "LR"], "value": 0.0001}, "version": 15, "at": 1740044762.536217}
+{"obj": {"type": "AssignInt", "path": ["parameters", "num_episodes"], "value": 5000}, "version": 16, "at": 1740044762.5366552}
