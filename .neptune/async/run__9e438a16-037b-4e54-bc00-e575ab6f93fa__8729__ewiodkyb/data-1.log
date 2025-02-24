@@ -1,0 +1,11 @@
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 1, "at": 1740129167.2163}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2dc07c09", "hostname"], "value": "Antonias-MacBook-Pro-2.local"}, "version": 2, "at": 1740129167.216684}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Antonias-MacBook-Pro-2.local"}, "version": 3, "at": 1740129167.2168288}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2dc07c09", "pid"], "value": "8729"}, "version": 4, "at": 1740129167.216959}
+{"obj": {"type": "AssignString", "path": ["monitoring", "2dc07c09", "tid"], "value": "140704625138496"}, "version": 5, "at": 1740129167.217073}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 6, "at": 1740129167.217184}
+{"obj": {"type": "UploadFile", "path": ["source_code", "diff"], "ext": "patch", "file_path": null, "tmp_file_name": "source_code_diff-1740129167.625334-2025-02-21_11.12.47.625334.patch", "clean_after_upload": false}, "version": 7, "at": 1740129167.6259441}
+{"obj": {"type": "UploadFile", "path": ["source_code", "upstream_diff_44ac055d53370213292957a8800a4894122ca2c5"], "ext": "patch", "file_path": null, "tmp_file_name": "source_code_upstream_diff_44ac055d53370213292957a8800a4894122ca2c5-1740129167.626164-2025-02-21_11.12.47.626164.patch", "clean_after_upload": false}, "version": 8, "at": 1740129167.626448}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "GAMMA"], "value": 0.99}, "version": 9, "at": 1740129167.6364422}
+{"obj": {"type": "AssignFloat", "path": ["parameters", "LR"], "value": 0.001}, "version": 10, "at": 1740129167.637387}
+{"obj": {"type": "AssignInt", "path": ["parameters", "num_episodes"], "value": 10000}, "version": 11, "at": 1740129167.637751}
