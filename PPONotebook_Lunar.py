@@ -613,7 +613,7 @@ def mainCartPole():
     plot_losses(policy_losses, value_losses)
 
 # %%
-mainCartPole()
+#mainCartPole()
 
 # %%
 def mainLunar():
@@ -625,7 +625,7 @@ def mainLunar():
     # Create the environment
     params = {
         "optimizer_name": "Adam",
-        "MAX_EPISODES":5000,
+        "MAX_EPISODES":1000,
         "DISCOUNT_FACTOR":0.99,#0.8 to 0.9997. Common 0.99
         "REWARD_THRESHOLD": 200,
         "PRINT_INTERVAL": 10,
@@ -683,7 +683,7 @@ def mainLunar():
     plot_losses(policy_losses, value_losses)
 
 # %%
-# mainLunar()
+mainLunar()
 
 # %%
 # envTemp = gym.make("CartPole-v1")
