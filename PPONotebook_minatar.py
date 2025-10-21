@@ -711,7 +711,7 @@ def mainMinatar():
     # Create the environment
     params = {
         "optimizer_name": "Adam",
-        "MAX_EPISODES":10000,
+        "MAX_EPISODES":5000,
         "DISCOUNT_FACTOR":0.99,#0.8 to 0.9997. Common 0.99
         "REWARD_THRESHOLD": 100,
         "PRINT_INTERVAL": 10,
@@ -721,7 +721,7 @@ def mainMinatar():
         "ENTROPY_COEFFICIENT":0.01,#0 to 0.01
         "HIDDEN_DIMENSIONS": 64,
         "DROPOUT": 0.2,
-        "LEARNING_RATE":1e-4,#0.003 to 5e-6
+        "LEARNING_RATE":1e-3,#0.003 to 5e-6
         "BATCH_SIZE":32
     }
 
